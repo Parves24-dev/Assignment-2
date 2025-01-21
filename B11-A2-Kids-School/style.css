@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Hind+Siliguri:wght@300;400;500;600;700&family=Quicksand:wght@300..700&display=swap');
+
+.quicksand{
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight:500;
+    font-style: normal;
+  }
+  
+body{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight:500;
+    font-style: normal;
+   
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 102px;
+}
+nav ul,a,i{
+    list-style: none;
+    text-decoration:none;
+    display: flex;
+    gap: 32px;
+    color: black;
+    font-size: large;
+}
+nav a:hover{
+color:orange;
+border-bottom: 2px solid orange;
+}
+.a-one{
+    color: orange;
+    font-size: 20px;
+}
+.a-two{
+    color: skyblue;
+    font-size: 20px;
+} 
+.a-three{
+    color: rgb(5,212,223);
+    font-size: 20px;
+}
+.a-fore{
+    color:rgba(93, 88, 239, 1);
+    font-size: 20px;
+}
+
+#menu{
+    display: none;
+}
+#cart{
+    display: none;
+}
+
+nav i{
+    font-size: 24px;
+}
+.logo{
+    font-size: 32px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+
+}
+.logo img{
+    width:62px;
+    height:62px;
+}
+
+header button{
+    background-color: orange;
+    color: aliceblue;
+    padding: 10px 10px;
+    width: 197px;
+    height: 50px;
+    font-size: 20px;
+    border: none;
+    border-radius: 12px;
+}
+header button:hover{
+    background-color: black;
+    color: orange;
+}
+header{
+    width:1440px;
+    
+}
+/* personal note:Ekhane width 100% use kora jeto */
+header>nav{
+    width:1160px ;
+    margin: 0 auto;
+}
+/* personal note:Ekhane width 85% kora jeto */
+
+
+
+
+/* benner section */
+
+.benner{
+    display: flex;
+    width: 1160px;
+    align-items: center;
+    margin: 0 auto;
+    gap: 50px;
+}
+
+.colorful-text{
+    font-size: 52px;
+    font-weight: 600;
+}
+.light-text{
+
+    font-size: 20px;
+}
+.benner .text{
+    width: 640px;
+    height: 330px;
+}
+.benner button{
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    padding: 10px 10px;
+    width: 197px;
+    height: 50px;
+    font-size: 20px;
+    border: none;
+    border-radius: 12px;
+
+}
+
+.benner button:hover{
+    background-color: orange ;
+    color:black;
+}
+
+
+footer{
+    width:1440px;
+    height: 519px;
+    background-color: rgb(1, 172, 252);
+}
