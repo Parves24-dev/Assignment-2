@@ -375,4 +375,33 @@ footer a:hover{
         margin-top: -10px;
     }
 
+
+    /* benner */
+
+    .benner{
+        justify-content: center;
+        flex-direction: column-reverse;
+        width: 90%;
+        align-items: center;
+        margin: 0 auto;
+    }
+    .benner .text .colorful-text{
+        font-size: 32px;
+        text-align: center;
+    }
+    .benner .text .light-text{
+        font-size:14px ;
+        text-align: center;
+        width: 357px;
+        margin: 0 auto;
+        margin-top: 18px;
+        margin-bottom: 18px;
+    }
+    .benner .btn{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
 }
