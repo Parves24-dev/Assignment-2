@@ -106,7 +106,7 @@ header>nav{
 
 .benner{
     display: flex;
-    width: 1160px;
+    width: 1158px;
     align-items: center;
     margin: 0 auto;
     gap: 50px;
@@ -141,6 +141,148 @@ header>nav{
     color:black;
 }
 
+
+
+
+/* Standard Curriculum */
+.Standard-Curriculum{
+    background-image: url(assets/bg.png);
+    height: 880px;
+    width:1440px ;
+
+}
+.Standard-Curriculum h3 {
+    font-size: 46px;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 28px;
+}
+.cards a:hover{
+    color: crimson;
+}
+
+.card-1{
+    width: 368px;
+    height: 476px;
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 40%, rgba(222,245,255,1) 100%);
+    border: 1px solid rgb(222, 245, 255,100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 19px;
+
+}
+.card-1 h4{
+    text-align: center;
+    font-size: 24px;
+   
+}
+.card-1 p{
+    text-align:center ;
+    color: #808080;
+    line-height: 28px;
+    width: 290px;
+    font-size: 15px;
+
+}
+.card-1 a{
+    margin-top: 20px;
+    color: skyblue;
+    font-weight: 600;
+}
+
+
+.card-2{
+    width: 368px;
+    height: 476px;
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 40%, rgba(255,244,220,1) 100%);
+    border: 1px solid rgba(255,244,220,1) ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 19px;
+
+}
+.card-2 h4{
+    text-align: center;
+    font-size: 24px;
+   
+}
+.card-2 p{
+    text-align:center ;
+    color: #808080;
+    line-height: 28px;
+    width: 290px;
+    font-size: 15px;
+
+}
+.card-2 a{
+    margin-top: 20px;
+    color:#f0aa00;
+    font-weight: 600;
+}
+
+
+.card-3{
+    width: 368px;
+    height: 476px;
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 40%, rgba(242,232,255,1) 100%);
+    border: 1px solid rgba(242,232,255,1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 19px;
+
+}
+.card-3 h4{
+    text-align: center;
+    font-size: 24px;
+   
+}
+.card-3 p{
+    text-align:center ;
+    color: #808080;
+    line-height: 28px;
+    width: 290px;
+    font-size: 15px;
+
+}
+.card-3 a{
+    margin-top: 20px;
+    color: #8700ff;
+    font-weight: 600;
+}
+.orenge-icons i{
+    background-color: orange;
+    font-size: 60px;
+    color: white;
+    border-radius: 50%;
+    
+    
+
+}
+.orenge-icons{
+    display: flex;
+    justify-content: center;
+    width: 1160px;
+    margin:0 auto;
+    margin-top: 80px;
+    margin-bottom: 60px;
+    gap: 10px;
+ 
+}
 
 footer{
     width:1440px;
